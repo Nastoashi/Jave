@@ -46,7 +46,7 @@ body {
   color: rgb(170, 168, 168);
 }
 
-.hero-content>div{
+.hero-content > div {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -84,16 +84,16 @@ body {
   flex-direction: column;
 }
 
-.about-card>img {
+.about-card > img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
-.about-card>span:first-of-type {
+.about-card > span:first-of-type {
   margin-top: 1rem;
 }
 
-.about-card>span:last-of-type {
+.about-card > span:last-of-type {
   color: gray;
 }
 
@@ -103,7 +103,7 @@ body {
   text-align: center;
 }
 
-.services-wrapper>h2 {
+.services-wrapper > h2 {
   margin-bottom: 1rem;
 }
 
@@ -117,49 +117,50 @@ body {
   justify-content: center;
 }
 
-.service>div {
+.service > div {
   display: flex;
   align-items: center;
   font-weight: 600;
   background-color: #f7f8f9;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.service>div:nth-child(1) {
+.service > div:nth-child(1) {
   border: solid 1px red;
 }
 
-.service>div:nth-child(2) {
+.service > div:nth-child(2) {
   border: solid 1px blue;
 }
 
-.service>div:nth-child(3) {
+.service > div:nth-child(3) {
   border: solid 1px green;
 }
 
-.service>div:nth-child(4) {
+.service > div:nth-child(4) {
   border: solid 1px purple;
 }
 
-.service>div:nth-child(5) {
+.service > div:nth-child(5) {
   border: solid 1px peru;
 }
 
-.service>div:nth-child(6) {
+.service > div:nth-child(6) {
   border: solid 1px khaki;
 }
 
-.service>div:nth-child(7) {
+.service > div:nth-child(7) {
   border: solid 1px orchid;
 }
 
-.service>div:nth-child(8) {
+.service > div:nth-child(8) {
   border: solid 1px orange;
 }
 
-.service>div:nth-child(9) {
+.service > div:nth-child(9) {
   border: solid 1px yellow;
 }
 
@@ -173,7 +174,7 @@ body {
   text-align: center;
 }
 
-.approach-wrapper>h3 {
+.approach-wrapper > h3 {
   font-size: 3rem;
   margin-bottom: 3rem;
 }
@@ -247,7 +248,7 @@ body {
 }
 
 .studies-line::before {
-  content: "";
+  content: '';
   display: block;
   width: 0;
   height: 94%;
@@ -270,12 +271,12 @@ body {
   border: solid 1px #000;
 }
 
-.contact>div:first-of-type {
+.contact > div:first-of-type {
   display: flex;
   flex-direction: column;
 }
 
-.contact>div:last-of-type {
+.contact > div:last-of-type {
   width: 100%;
 }
 
@@ -317,7 +318,7 @@ body {
   opacity: 1;
 }
 
-.contact>div:last-of-type input {
+.contact > div:last-of-type input {
   width: 100%;
   font-size: 1.2rem;
   border: solid 1px black;
@@ -325,7 +326,7 @@ body {
   padding: 1rem;
 }
 
-.contact>div:last-of-type button {
+.contact > div:last-of-type button {
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
@@ -339,17 +340,17 @@ body {
   transition: all 0.2s ease-in;
 }
 
-.contact>div:last-of-type button.thank {
+.contact > div:last-of-type button.thank {
   opacity: 0;
   visibility: hidden;
 }
 
-.contact>div:last-of-type button:hover {
+.contact > div:last-of-type button:hover {
   background-color: #000;
   color: #fff;
 }
 
-.contact>div:last-of-type button>div:first-of-type {
+.contact > div:last-of-type button > div:first-of-type {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -357,7 +358,7 @@ body {
   justify-content: center;
 }
 
-.contact>div:last-of-type button>div:last-of-type {
+.contact > div:last-of-type button > div:last-of-type {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -393,13 +394,13 @@ footer {
   align-items: center;
 }
 
-.footer-logo>span {
+.footer-logo > span {
   font-size: 1.5rem;
   margin-top: 1rem;
   color: grey;
 }
 
-.footer>div:last-of-type {
+.footer > div:last-of-type {
   display: flex;
   justify-content: center;
   margin: 1rem;
@@ -411,7 +412,6 @@ footer .linkedin svg {
   border-radius: 50%;
   border: solid 1px white;
 }
-
 
 @media only screen and (min-width: 1025px) {
   h1 {
@@ -437,7 +437,7 @@ footer .linkedin svg {
     top: 50%;
     left: 50%;
   }
-  
+
   .hero-content a {
     display: none;
   }
@@ -466,7 +466,7 @@ footer .linkedin svg {
     font-size: 1.2rem;
   }
 
-  .studies-wrapper>div:first-of-type {
+  .studies-wrapper > div:first-of-type {
     width: 45%;
   }
 
@@ -475,7 +475,7 @@ footer .linkedin svg {
   }
 
   .line-block.lt::before {
-    box-shadow: -30px 86px 0 65px #FFF;
+    box-shadow: -30px 77px 0 65px #fff;
   }
 
   .contact-wrapper {
@@ -487,11 +487,11 @@ footer .linkedin svg {
     gap: 5rem;
   }
 
-  .contact>div:last-of-type {
+  .contact > div:last-of-type {
     max-width: 500px;
   }
 
-  .contact>div:last-of-type input {
+  .contact > div:last-of-type input {
     margin-right: 2rem;
   }
 
@@ -576,7 +576,7 @@ footer .linkedin svg {
     display: flex;
   }
 
-  .contact>div:last-of-type input {
+  .contact > div:last-of-type input {
     margin-right: 2rem;
   }
 
